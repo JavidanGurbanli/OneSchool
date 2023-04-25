@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    scroll-behavior: smooth;
+    &::selection{
+        background-color: #000;
+        color: #fff;
+    }
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}

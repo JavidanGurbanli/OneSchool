@@ -1,0 +1,115 @@
+#programs {
+    width: 100%;
+    margin: 200px 0;
+
+    .programs {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+
+        h2 {
+            font-size: $font-size-large * 2;
+            font-weight: $font-weight-heavy;
+        }
+
+        p {
+            width: 45%;
+            text-align: center;
+            font-size: $font-size-medium + 2;
+            font-weight: $font-weight-light;
+            color: $gray-bold;
+            line-height: 30px;
+            margin: 50px auto;
+        }
+
+        .program {
+            display: flex;
+            margin: 60px auto;
+            column-gap: 100px;
+
+            .program_img-first {
+                width: 635px;
+                height: 467px;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .program_img-second {
+                width: 635px;
+                height: 508px;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .program_img-third {
+                width: 635px;
+                height: 346px;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .program_content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                width: 380px;
+
+                h2 {
+                    font-size: $font-size-large + 8;
+                    font-weight: $font-weight-medium;
+                }
+
+                p {
+                    width: 100%;
+                    text-align: start;
+                    margin: 30px auto;
+                }
+
+                .program_info {
+                    display: flex;
+                    column-gap: 20px;
+                    margin-bottom: 10px;
+                    align-items: center;
+
+                    i {
+                        color: $white;
+                        background-color: $primary-color;
+                        font-size: $font-size-small + 2;
+                        padding: 10px;
+                        border-radius: 50%;
+                        text-align: center;
+                    }
+
+                    .fa-building-columns {
+                        padding: 12px;
+                    }
+
+                    h3 {
+                        font-size: $font-size-medium;
+                        font-weight: 500;
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,255 @@
+@media screen and (max-width: 576px) {
+
+    //header
+    header {
+        .container {
+            .admission {
+                max-width: 100%;
+                padding: 0 2%;
+            }
+        }
+    }
+
+    //courses
+    .courses {
+        .courses_title {
+            h2 {
+                font-size: $font-size-large + 6;
+            }
+        }
+
+        .courses_cards {
+            .courses_card {
+                width: 400px;
+                min-width: 100px;
+                height: 390px;
+
+                .card_image {
+                    width: 400px;
+                    min-width: 100px;
+                }
+
+                &:first-child~* {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    //programs
+    #programs {
+        width: 100%;
+
+        .programs {
+            width: 90%;
+
+            h2 {
+                font-size: $font-size-large;
+            }
+
+            p {
+                width: 90%;
+            }
+
+            .program {
+                flex-direction: column;
+                width: auto;
+
+                .program_img-first {
+                    width: auto;
+                    height: auto;
+                }
+
+                .program_img-second {
+                    width: auto;
+                    height: auto;
+                }
+
+                .program_img-third {
+                    width: auto;
+                    height: auto;
+                }
+
+                .program_content {
+                    width: 100%;
+                    margin-top: 50px;
+
+                    p {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .program-diff {
+                flex-direction: column-reverse;
+            }
+        }
+    }
+
+    //teachers
+    #teachers {
+        width: 100%;
+        .teachers {
+            width: 100%;
+            h2 {
+                font-size: $font-size-large;
+            }
+
+            .teachers_title {
+                width: 90%;
+            }
+
+            .teachers_cards {
+                flex-direction: column;
+                width: 95%;
+                margin: 100px auto 0 auto;
+                justify-content: center;
+                align-items: center;
+                row-gap: 80px;
+
+                .teacher {
+                    width: auto;
+                    .teacher_img {
+                        width: auto;
+                        height: auto;
+                    }
+
+                    .teacher_content {
+                        width: 80%;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    //jerome
+    #jerome {
+        .jerome {
+            width: auto;
+            max-width: 95%;
+            margin: 0 auto;
+
+            .jerome_image {
+                max-width: 128px;
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+
+    //choose
+    #choose {
+        width: 100%;
+        height: auto;
+
+        .choose {
+            width: 100%;
+            height: 100%;
+
+            .choose_blobs {
+                .blob2 {
+                    top: 700px;
+                }
+            }
+
+            .choose_container {
+                width: 100%;
+                height: 100%;
+
+                h2 {
+                    font-size: $font-size-large;
+                }
+
+                .choose_content {
+                    flex-direction: column;
+                    align-items: center;
+
+                    .choose_card {
+                        max-width: 510px;
+                        width: auto;
+                        height: auto;
+                    }
+
+                    .choose_image {
+                        max-width: 510px;
+                        width: auto;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    //contact
+    #contact {
+        width: 100%;
+
+        .contact {
+            max-width: 95%;
+            margin: 0 auto;
+            width: auto;
+
+            h2 {
+                font-size: $font-size-large;
+            }
+
+            form {
+                max-width: 100%;
+                width: auto;
+
+                .name {
+                    width: 100%;
+                    flex-direction: column;
+                    row-gap: 20px;
+
+                    input[type=text] {
+                        width: 100%;
+                    }
+                }
+
+                input[type=submit] {
+                    max-width: 500px;
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    //footer
+    footer {
+        width: 100%;
+
+        .container {
+            max-width: 540px;
+            width: 90%;
+
+            .footer_top {
+                flex-direction: column;
+
+                .footer_top-column {
+                    min-height: 220px;
+                    height: auto;
+                    max-width: 500px;
+                    width: 100%;
+                }
+
+                .subscribe {
+                    form {
+                        width: 100%;
+                        flex-direction: column;
+                        row-gap: 10px;
+
+                        input[type=email] {
+                            width: 100%;
+                        }
+
+                        input[type=submit] {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

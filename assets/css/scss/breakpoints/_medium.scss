@@ -1,0 +1,265 @@
+@media screen and (max-width: 992px) {
+
+    //header
+    header {
+        .container {
+            nav {
+                .nav_items {
+                    display: none;
+                }
+
+                .nav_contact {
+                    display: none;
+                }
+
+                .nav_mobile_menu {
+                    visibility: visible;
+                }
+            }
+
+            .admission {
+                flex-direction: column;
+                row-gap: 20px;
+                width: 100%;
+                padding: 0 2%;
+                margin: 100px auto;
+
+                .admission_left {
+                    width: 90%;
+                }
+
+                .admission_right {
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+    //courses
+    .courses {
+        .courses_title {
+            h2 {
+                font-size: 30px;
+            }
+        }
+
+        .courses_cards {
+            width: 100%;
+
+            .courses_card {
+                width: 336px;
+
+                .card_image {
+                    width: 100%;
+                }
+
+                &:last-child {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    //programs
+    #programs {
+        width: 100%;
+
+        .programs {
+            width: 90%;
+            margin: 0 auto;
+
+            h2 {
+                font-size: $font-size-large;
+            }
+
+            p {
+                width: 80%;
+            }
+
+            .program {
+                flex-direction: column;
+
+                .program_img-first {
+                    width: 690px;
+                    height: 508px;
+                }
+
+                .program_img-second {
+                    width: 690px;
+                    height: 551px;
+                }
+
+                .program_img-third {
+                    width: 690px;
+                    height: 376px;
+                }
+
+                .program_content {
+                    padding: 20px 0;
+                    width: 660px;
+                }
+            }
+
+            .program-diff {
+                flex-direction: column-reverse;
+            }
+        }
+    }
+
+    //teachers
+    #teachers {
+        width: 100%;
+
+        .teachers {
+            width: 100%;
+
+            h2 {
+                font-size: $font-size-large;
+            }
+
+            .teachers_title {
+                width: 650px;
+            }
+
+            .teachers_cards {
+                width: 95%;
+                justify-content: center;
+                row-gap: 80px;
+                flex-wrap: wrap;
+                margin-left: auto;
+
+                .teacher {
+                    width: 330px;
+
+                    .teacher_img {
+                        width: 134px;
+                        height: 134px;
+                    }
+
+                    &:last-child {
+                        margin-right: 350px;
+                    }
+                }
+            }
+        }
+    }
+
+    //jerome
+    #jerome {
+        .jerome {
+            width: 400px;
+
+            .jerome_image {
+                width: 113px;
+                height: 113px;
+            }
+        }
+    }
+
+    //choose
+    #choose {
+        width: 100%;
+        height: 1412px;
+
+        .choose {
+            width: 100%;
+            height: 100%;
+
+            .choose_blobs {
+                .blob2 {
+                    top: 900px;
+                }
+            }
+
+            .choose_container {
+                width: 100%;
+                height: 100%;
+
+                h2 {
+                    font-size: $font-size-large;
+                }
+
+                .choose_content {
+                    flex-direction: column;
+                    align-items: center;
+
+                    .choose_card {
+                        width: 720px;
+                        height: 450px;
+                    }
+
+                    .choose_image {
+                        width: 690px;
+                        height: 790px;
+                    }
+                }
+            }
+        }
+    }
+
+    //contact
+    #contact {
+        width: 100%;
+
+        .contact {
+            width: 430px;
+
+            h2 {
+                font-size: $font-size-large;
+            }
+
+            form {
+                width: 100%;
+
+                .name {
+                    width: 100%;
+
+                    input[type=text] {
+                        width: 200px;
+                    }
+                }
+
+                input[type=submit] {
+                    width: 200px;
+                }
+            }
+        }
+    }
+
+    //footer
+    footer {
+        width: 100%;
+
+        .container {
+            width: 720px;
+
+            .footer_top {
+                .about {
+                    width: 230px;
+                }
+
+                .links {
+                    width: 100px;
+                }
+
+                .subscribe {
+                    width: 230px;
+
+                    form {
+                        width: 100%;
+                        flex-direction: column;
+                        row-gap: 10px;
+
+                        input[type=email] {
+                            width: 200px;
+                        }
+
+                        input[type=submit] {
+                            width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
